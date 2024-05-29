@@ -8,7 +8,7 @@ class Stock:
 
   def tranform_infomation(self, data):
     ret ={}
-    if data.get('trailingPegRatio') is not None or data.get('quoteType') == 'ETF':
+    if data.get('trailingPegRatio') is not None or data.get('quoteType') == 'ETF' or data.get('quoteType') == 'EQUITY':
       ret = {
         "data": data,
         "error": None
