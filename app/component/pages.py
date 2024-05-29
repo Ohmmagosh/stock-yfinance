@@ -5,6 +5,6 @@ class Pages:
     ...
 
   def page(self):
-    st.page_link("pages/home.py", label="Stock", icon="1️⃣")
-    # st.page_link("pages/home2.py", label="Page 2", icon="2️⃣")
-    st.page_link("http://www.google.com", label="Google", icon="🌎")
+    st.page_link("pages/Stock.py", label="Stock", icon="1️⃣")
+    st.page_link("pages/Counter.py", label="Counter", icon="2️⃣")
+    # st.page_link("http://www.google.com", label="Google", icon="🌎")
