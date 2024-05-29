@@ -1,2 +1,2 @@
 run:
-	poetry run streamlit run app/main.py
+	poetry run streamlit run app/Home.py
